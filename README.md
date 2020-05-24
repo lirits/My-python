@@ -1,2 +1,7 @@
 # README
-本库存主要记载自己Python的学习历程
+## 本库存主要是上传一些自己Python学习的笔记笔记内容包括
+|Python|算法|
+|------|----|
+|numpy |knn|
+|pandas|    |
+|matplotlib|  |
