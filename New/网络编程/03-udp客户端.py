@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import socket
 if __name__ == '__main__':
 # 1. 创建客户端套接字对象
@@ -5,10 +6,8 @@ if __name__ == '__main__':
 # socket.SOCK_DGRAM = UDP传输协议
     udp_client_socket = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 # 2. 和服务端套接字建立连接
-#     udp_client_socket.connect(("172.19.218.36",12345))
 # 3. 发送数据
-    send_data = '你好你好'.encode('utf-8')
-    udp_client_socket.sendto(send_data,('172.19.218.36',12345))
+    udp_client_socket.sendto('hello'.encode('utf-8'),('192.168.143.130',12345))
 # 4. 接收数据
     recv_data = udp_client_socket.recv(1024)#接收数据最大字节数
     recv_data_context = recv_data.decode('utf-8')

@@ -6,9 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67471e91-10e3-4e5e-9793-f3f228d1d373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/New/网络编程/03-udp客户端.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/New/网络编程/04-udp服务端.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/网络编程/03-udp客户端.py" beforeDir="false" afterPath="$PROJECT_DIR$/New/网络编程/03-udp客户端.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New/网络编程/04-udp服务端.py" beforeDir="false" afterPath="$PROJECT_DIR$/New/网络编程/04-udp服务端.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <recent name="$PROJECT_DIR$/New/网络编程" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03-udp客户端">
+  <component name="RunManager" selected="Python.04-udp服务端">
     <configuration name="01-tcp客户端" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="My-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,8 +112,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="04-udp服务端" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="My-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/New/网络编程" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/New/网络编程/04-udp服务端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04-udp服务端" />
         <item itemvalue="Python.03-udp客户端" />
         <item itemvalue="Python.02-tcp服务端" />
         <item itemvalue="Python.01-tcp客户端" />
@@ -136,7 +159,7 @@
       <workItem from="1603529450976" duration="875000" />
       <workItem from="1603677599838" duration="39000" />
       <workItem from="1603683412344" duration="4682000" />
-      <workItem from="1603701419526" duration="717000" />
+      <workItem from="1603701419526" duration="2095000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1603689033734</created>
@@ -145,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603689033734</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1603702262652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603702262652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,50 +204,59 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="894" height="358" key="GridCell.Tab.0.bottom" timestamp="1603690256961">
-      <screen x="47" y="23" width="1873" height="1057" />
+    <state width="1202" height="248" key="GridCell.Tab.0.bottom" timestamp="1603702655503">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
+    <state width="1202" height="248" key="GridCell.Tab.0.bottom/1920.84.900.1577/44.23.1876.1057@44.23.1876.1057" timestamp="1603702655503" />
     <state width="894" height="290" key="GridCell.Tab.0.bottom/1920.84.900.1577/45.23.1875.1057@45.23.1875.1057" timestamp="1603689025007" />
     <state width="894" height="358" key="GridCell.Tab.0.bottom/1920.84.900.1577/47.23.1873.1057@47.23.1873.1057" timestamp="1603690256961" />
-    <state width="894" height="358" key="GridCell.Tab.0.center" timestamp="1603690256961">
-      <screen x="47" y="23" width="1873" height="1057" />
+    <state width="1202" height="248" key="GridCell.Tab.0.center" timestamp="1603702655503">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
+    <state width="1202" height="248" key="GridCell.Tab.0.center/1920.84.900.1577/44.23.1876.1057@44.23.1876.1057" timestamp="1603702655503" />
     <state width="894" height="290" key="GridCell.Tab.0.center/1920.84.900.1577/45.23.1875.1057@45.23.1875.1057" timestamp="1603689025007" />
     <state width="894" height="358" key="GridCell.Tab.0.center/1920.84.900.1577/47.23.1873.1057@47.23.1873.1057" timestamp="1603690256961" />
-    <state width="894" height="358" key="GridCell.Tab.0.left" timestamp="1603690256961">
-      <screen x="47" y="23" width="1873" height="1057" />
+    <state width="1202" height="248" key="GridCell.Tab.0.left" timestamp="1603702655502">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
+    <state width="1202" height="248" key="GridCell.Tab.0.left/1920.84.900.1577/44.23.1876.1057@44.23.1876.1057" timestamp="1603702655502" />
     <state width="894" height="290" key="GridCell.Tab.0.left/1920.84.900.1577/45.23.1875.1057@45.23.1875.1057" timestamp="1603689025006" />
     <state width="894" height="358" key="GridCell.Tab.0.left/1920.84.900.1577/47.23.1873.1057@47.23.1873.1057" timestamp="1603690256961" />
-    <state width="894" height="358" key="GridCell.Tab.0.right" timestamp="1603690256961">
-      <screen x="47" y="23" width="1873" height="1057" />
+    <state width="1202" height="248" key="GridCell.Tab.0.right" timestamp="1603702655503">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
+    <state width="1202" height="248" key="GridCell.Tab.0.right/1920.84.900.1577/44.23.1876.1057@44.23.1876.1057" timestamp="1603702655503" />
     <state width="894" height="290" key="GridCell.Tab.0.right/1920.84.900.1577/45.23.1875.1057@45.23.1875.1057" timestamp="1603689025007" />
     <state width="894" height="358" key="GridCell.Tab.0.right/1920.84.900.1577/47.23.1873.1057@47.23.1873.1057" timestamp="1603690256961" />
-    <state width="894" height="358" key="GridCell.Tab.1.bottom" timestamp="1603690256962">
-      <screen x="47" y="23" width="1873" height="1057" />
+    <state width="1202" height="307" key="GridCell.Tab.1.bottom" timestamp="1603702247786">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
+    <state width="1202" height="307" key="GridCell.Tab.1.bottom/1920.84.900.1577/44.23.1876.1057@44.23.1876.1057" timestamp="1603702247786" />
     <state width="894" height="358" key="GridCell.Tab.1.bottom/1920.84.900.1577/45.23.1875.1057@45.23.1875.1057" timestamp="1603688774686" />
     <state width="894" height="358" key="GridCell.Tab.1.bottom/1920.84.900.1577/47.23.1873.1057@47.23.1873.1057" timestamp="1603690256962" />
-    <state width="894" height="358" key="GridCell.Tab.1.center" timestamp="1603690256961">
-      <screen x="47" y="23" width="1873" height="1057" />
+    <state width="1202" height="307" key="GridCell.Tab.1.center" timestamp="1603702247786">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
+    <state width="1202" height="307" key="GridCell.Tab.1.center/1920.84.900.1577/44.23.1876.1057@44.23.1876.1057" timestamp="1603702247786" />
     <state width="894" height="358" key="GridCell.Tab.1.center/1920.84.900.1577/45.23.1875.1057@45.23.1875.1057" timestamp="1603688774685" />
     <state width="894" height="358" key="GridCell.Tab.1.center/1920.84.900.1577/47.23.1873.1057@47.23.1873.1057" timestamp="1603690256961" />
-    <state width="894" height="358" key="GridCell.Tab.1.left" timestamp="1603690256961">
-      <screen x="47" y="23" width="1873" height="1057" />
+    <state width="1202" height="307" key="GridCell.Tab.1.left" timestamp="1603702247786">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
+    <state width="1202" height="307" key="GridCell.Tab.1.left/1920.84.900.1577/44.23.1876.1057@44.23.1876.1057" timestamp="1603702247786" />
     <state width="894" height="358" key="GridCell.Tab.1.left/1920.84.900.1577/45.23.1875.1057@45.23.1875.1057" timestamp="1603688774685" />
     <state width="894" height="358" key="GridCell.Tab.1.left/1920.84.900.1577/47.23.1873.1057@47.23.1873.1057" timestamp="1603690256961" />
-    <state width="894" height="358" key="GridCell.Tab.1.right" timestamp="1603690256962">
-      <screen x="47" y="23" width="1873" height="1057" />
+    <state width="1202" height="307" key="GridCell.Tab.1.right" timestamp="1603702247786">
+      <screen x="44" y="23" width="1876" height="1057" />
     </state>
+    <state width="1202" height="307" key="GridCell.Tab.1.right/1920.84.900.1577/44.23.1876.1057@44.23.1876.1057" timestamp="1603702247786" />
     <state width="894" height="358" key="GridCell.Tab.1.right/1920.84.900.1577/45.23.1875.1057@45.23.1875.1057" timestamp="1603688774686" />
     <state width="894" height="358" key="GridCell.Tab.1.right/1920.84.900.1577/47.23.1873.1057@47.23.1873.1057" timestamp="1603690256962" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/My_python$01_tcp.coverage" NAME="01-tcp客户端 Coverage Results" MODIFIED="1603688586996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/New/网络编程" />
-    <SUITE FILE_PATH="coverage/My_python$03_udp.coverage" NAME="03-udp客户端 Coverage Results" MODIFIED="1603701975649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/New/网络编程" />
+    <SUITE FILE_PATH="coverage/My_python$03_udp.coverage" NAME="03-udp客户端 Coverage Results" MODIFIED="1603702184523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/New/网络编程" />
     <SUITE FILE_PATH="coverage/My_python$02_tcp.coverage" NAME="02-tcp服务端 Coverage Results" MODIFIED="1603688786026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/New/网络编程" />
+    <SUITE FILE_PATH="coverage/My_python$04_udp.coverage" NAME="04-udp服务端 Coverage Results" MODIFIED="1603702655497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/New/网络编程" />
   </component>
 </project>
