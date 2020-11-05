@@ -26,3 +26,4 @@ for name in file_list:
     print(new_name)
     # 重命名
     os.rename(dir_name+name, dir_name+new_name)
+
