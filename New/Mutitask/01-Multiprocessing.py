@@ -1,8 +1,10 @@
 import multiprocessing
+import threading
 import time
 import os
 def dancing():
     print('Dancing_ID：',os.getpid())
+    print('Process_name',multiprocessing.current_process())
     print('Dancing_PID：',os.getppid())
     for i in range(5):
         print('Dancing..')
